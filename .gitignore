@@ -1,0 +1,8 @@
+__pycache__/
+venv/
+DATA/
+.idea/
+*.xml
+*.log
+*.pdf
+test.py
