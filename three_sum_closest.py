@@ -13,9 +13,9 @@ class Solution:
                     return total
                 if abs(prev_diff) > diff_val:
                     res = total
-                prev_diff = min(prev_diff,diff_val)
+                prev_diff = min(prev_diff, diff_val)
 
-                if total>target:
+                if total > target:
                     right_p -= 1
                 else:
                     left_p += 1
