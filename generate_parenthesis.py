@@ -3,7 +3,7 @@ from typing import List
 
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        self.result = []
+        self.result  = []
 
         if not n:
             return self.result
