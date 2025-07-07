@@ -29,6 +29,7 @@ class Solution(object):
                         resulted_string += j
         return resulted_string.strip(" ")
 
+
 if __name__ == '__main__':
     merge_alter = Solution()
     resulted_string = merge_alter.mergeAlternately("abc", "pqr")
